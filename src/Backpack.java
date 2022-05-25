@@ -36,11 +36,11 @@ public class Backpack {
       }
     }
 
-    for (int i = 0; i < list.size(); i++) {
-      System.out.println(Arrays.toString(list.get(i)));
-    }
-    System.out.println(Arrays.toString(sum));
-    System.out.println(max);
-    System.out.println(Arrays.toString(list.get(index)));
+    System.out.println("MaxWeight: " + maxWeight + "kg");
+    System.out.println("Capacity: " + capacity);
+    System.out.println("Weights: " + Arrays.toString(weights));
+    System.out.println("-------------------------");
+    System.out.println("Matching gold bars: " + Arrays.toString(list.get(index)));
+    System.out.println("Weight to be picked up: " + max + "kg");
   }
 }
